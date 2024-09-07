@@ -1,0 +1,34 @@
+{
+  "name": "aba-b",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.10.2",
+    "@strapi/plugin-users-permissions": "4.10.2",
+    "@strapi/provider-email-sendgrid": "^4.11.7",
+    "@strapi/strapi": "4.10.2",
+    "mysql": "2.18.1",
+    "pdfkit": "^0.13.0",
+    "strapi-plugin-custom-api": "^1.0.4",
+    "strapi-provider-email-brevo": "^1.0.4",
+    "stripe": "^12.11.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e2ce3d2d-010d-48bd-b497-f9dc9d390d7c"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
